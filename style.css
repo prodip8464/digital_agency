@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.ml-auto, mx-auto{
+    margin-left: auto!important;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0;
+}
+.log-color{
+    color: #f8f8f5;
+
+}
+.navbar-brand i{
+
+    margin-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0px 10px;
+}
+.navbar-nav li a {
+    color: white!important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: white!important;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none;
+}
+
+
+/* -----------------banner section start ------------------------*/
+
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 5%;
+    color: #f8f8f5;
+
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+.banner-image{
+    width: 300px;
+}
+
+#banner a{
+    color: white;
+   text-decoration: none;
+
+}
+
+
+
+
+
+
+/* -----------------banner section end ------------------------*/
+
+
+/*service section start here*/
+#service{
+    padding: 80px 0px;
+
+}
+.service-image{
+    width: 100px;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+
+}
+.services h4{
+    color: #5f1782;
+    padding:5px;
+    margin-top:25px;
+    text-transform: uppercase;
+
+}
+
+.title::before{
+    content: '';
+    background: #5f1782;
+    height: 4px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 5px;
+
+}
+.title::after{
+    content: '';
+    background: #5f1782;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+    margin-bottom: 40px;
+}
+
+#service .btn-primary{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 30px;
+    border: none;
+
+
+}
+
+
+
+/*service section end here*/
+
+
+/*ABout us section start here*/
+
+#about-Us{
+    background: #f8f9fa;
+    padding: 100px 0px;
+}
+.about-title{
+    margin-left: 20px;
+    color: #5f1782;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 15%;
+
+}
+.about-us ul li{
+    margin: 5px;
+
+}
+.about-us ul{
+    margin-left: 10px;
+}
+.about-image{
+    margin-top: 50px;
+    width: 500px;
+}
+
+
+
+
+
+/*ABout us section end here*/
+
+/*Testimonial section start  here*/
+#testimonials{
+
+    padding-top: 100px;
+}
+.testimonial{
+    border-left: 4px solid #5f1782;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+.testimonial img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+}
+.testimonial p{
+    color: #5f1782;
+}
+.user-details{
+    display: inline-block;
+    font-size: 16px;
+}
+#social-media{
+    padding: 100px 0px;
+    background: #f8f9fa;
+
+
+}
+#social-media p{
+    color: #5f1782;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icon img{
+    width: 60px;
+}
+.social-icon a:hover img {
+    transform: translateY(-10px);
+}
+
+
+
+/*Testimonial section end here*/
+
+/*Footer section start here*/
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+
+}
+.footer-box{
+    padding: 20px 0px;
+}
+.footer-box i{
+    color: #f8f9fa;
+}
+.footer-box .form-control{
+    box-shadow: none; !important;
+    border: none;
+    border-radius: 0px;
+    margin-top: 25px;
+    max-width: 250px;
+
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+
+
+}
+.footer-box .hov :hover {
+    background: #f8f9fa;
+    color: #5f1782;
+}
+hr{
+
+    background: #f8f9fa;
+
+}
+.copyright{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/*Footer section end here*/
